@@ -16,3 +16,7 @@
     margin-top: 2rem;
     max-width: 300px;
 }
+
+#category button {
+   margin-right: 1.5rem;
+}
