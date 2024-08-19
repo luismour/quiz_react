@@ -1,4 +1,4 @@
-# Quiz de Programação💡🌟✔️
+# Quiz de Programação 💡✅🚀
 
 Este é um projeto React.js criado utilizando o Vite, uma ferramenta de construção rápida e leve para aplicações web modernas. Ele consiste em um quiz de programação, contendo categorias e dicas para o usuário.
 
