@@ -2,6 +2,38 @@
 
 Este é um projeto React.js criado utilizando o Vite, uma ferramenta de construção rápida e leve para aplicações web modernas. Ele consiste em um quiz de programação, contendo categorias e dicas para o usuário.
 
+## 📍Stack utilizada
+
+<div> 
+  
+  <img align="inline_block" alt="html5" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+  <img align="inline_block" alt="css3" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+  <img align="inline_block" alt="react.js" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+</div>
+
+## 📦 Estrutura do Projeto
+
+```
+quiz_react/
+├── node_modules/                         # Dependências do projeto
+├── public/                               # Arquivos públicos, como ícones e manifestos
+│   └── vite.svg                          # Logotipo do Vite
+├── src/                                  # Código-fonte do aplicativo             
+│   ├── components/                       # Componentes do React
+|   |  ├── css/                           # Arquivos de estilo dos componentes
+|   |  ├── GameOver.jsx                   # Componente do final do quiz
+|   |  ├── Option.jsx                     # Componente das opções do quiz
+|   |  ├── PickCategory.jsx               # Componente da categoria do quiz ( HTML, CSS ou JavaScript)
+|   |  ├── Question.jsx                   # Componente das perguntas
+|   |  └── Welcome.jsx                    # Componente do inicio do jogo
+│   ├── context/                          # Arquivo de contexto
+│   ├── data/                             # Arquivos de dados, arrays e etc.
+│   ├── img/                              # Arquivos de multimidia
+│   └── ... (demais diretórios e arquivos)
+│   
+└── ... (demais diretórios e arquivos)
+```
+
 ##  📋 Pré-requisitos
 
 Antes de começar, certifique-se de ter o seguinte instalado em seu ambiente:
@@ -59,14 +91,7 @@ Os arquivos gerados estarão no diretório dist/. Você pode usar esses arquivos
 Contribuições são bem-vindas!❤️💡
 
 
-## Stack utilizada
 
-<div> 
-  
-  <img align="inline_block" alt="html5" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
-  <img align="inline_block" alt="css3" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
-  <img align="inline_block" alt="react.js" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
-</div>
 
 ## 📄 Licença
 
