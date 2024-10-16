@@ -1,7 +1,7 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: "Eurosoft W03 Regular", sans-serif;
   color: #fff;
 }
 
@@ -19,21 +19,21 @@ img {
 button {
   font-weight: bold;
   cursor: pointer;
+  color: #9F1717;
   font-size: 1.2rem;
   padding: 0.8rem 1.5rem;
-  background: linear-gradient(
-    90deg,
-    rgba(132, 53, 222, 1) 0%,
-    rgba(184, 84, 232, 1) 100%
-  );
+  background: #fff;
   border-radius: 3rem;
   border: none;
+  transition: .4s;
+  opacity: 1;
 }
 
 button:hover {
-  background: linear-gradient(
-    90deg,
-    rgba(184, 84, 232, 1) 0%,
-    rgba(132, 53, 222, 1) 100%
-  );
+  opacity: 0.8;
+}
+
+@font-face {
+  font-family: "Eurosoft W03 Regular";
+  src: url('./assets/fonts/Eurosoft\ W03\ Regular.ttf');
 }

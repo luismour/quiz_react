@@ -1,20 +1,42 @@
-#gameover {
-    text-align: center;
-    max-width: 500px;
+.gameOver__container {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 75px;
 }
 
-#gameover h2,
-#gameover p {
-    margin-bottom: 1rem;
+.gameOver__container > h2 {
+    padding-bottom: 25px;
 }
 
-#gameover p {
-    color: #8435de;
+.score__container {
+    background: #9F1717;
+    padding: 35px;
+    border-radius: 35px;
+    width:500px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-#gameover img {
-    margin: 2rem;
-    height: 300px;
+.score__container > h3 {
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+
+.classificacao__container > h2 {
+    margin-top: 26px;
+}
+
+
+.classificacao__container > img {
+    margin-top: 45px;
+    display: flex;
+}
+
+.belt__paragraph > p {
+    font-weight: bold;
+    margin-top: 60px;
 }

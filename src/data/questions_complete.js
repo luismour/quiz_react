@@ -1,90 +1,107 @@
 const data = [
   {
-    category: "HTML",
+    category: "Modulo 01",
     questions: [
       {
-        question: "Qual tag cria um parágrafo?",
+        question: "Considerando as senhas abaixo, qual é a mais segura.",
         options: ["<p>", "<h1>", "<text>", "<ul>"],
-        answer: "<p>",
-        tip: "É uma tag de uma letra apenas",
+        answer: "<text>",
+        
       },
       {
-        question: "Qual atributo adiciona um link para a tag a?",
-        options: ["alt", "href", "src", "link"],
-        answer: "href",
-        tip: "Hyperlink Reference",
-      },
-      {
-        question: "As listas não ordenadas tem a tag de:",
-        options: ["<ol>", "<ul>", "<li>", "<list>"],
-        answer: "<ul>",
-      },
-      {
-        question: "Qual atributo deixa o input obrigatório?",
-        options: ["placeholder", "value", "required", "maxlength"],
-        answer: "required",
-      },
-      {
-        question: "A tag semântica indicada para rodapés é a:",
-        options: ["div", "main", "section", "footer"],
-        answer: "footer",
-      },
-    ],
-  },
-  {
-    category: "CSS",
-    questions: [
-      {
-        question: "Qual regra altera a cor de um elemento?",
-        options: ["color", "background-color", "font-size", "transition"],
-        answer: "color",
-        tip: "Cor em inglês",
-      },
-      {
-        question: "Para aumentar a fonte de um elemento utilizamos:",
-        options: ["font", "text-transform", "font-size", "hover"],
-        answer: "font-size",
-      },
-      {
-        question: "A posição que deixa um elemento fixo é a:",
-        options: ["static", "absolute", "fixed", "relative"],
-        answer: "fixed",
-      },
-    ],
-  },
-  {
-    category: "JavaScript",
-    questions: [
-      {
-        question: "O que é Vanilla JavaScript?",
+        question: "Qual das alternativas abaixo está correta em relação à criação de senhas?",
         options: [
-          "JavaScript puro",
-          "Uma biblioteca JavaScript",
-          "Um framework JavaScript",
-          "Um compilador de JavaScript",
+          "Não há problema em utilizar a mesma senha em diferentes contas online.", 
+          "Senhas longas e complexas são mais seguras e devem ser únicas para cada conta.", 
+          "É recomendável usar senhas fáceis de lembrar, mesmo que sejam fracas.", 
+          "Trocar senhas frequentemente é desnecessário e pode ser confuso"
         ],
-        answer: "JavaScript puro",
+        answer: "Senhas longas e complexas são mais seguras e devem ser únicas para cada conta.",
+        tip: "Senhas longas e complexas são mais seguras e devem ser únicas para cada conta.",
       },
       {
-        question: "Com qual instrução declaramos uma constante em JavaScript?",
-        options: ["const", "let", "var", "define"],
-        answer: "const",
+        question: "Qual é o método correto de se lidar com um Malware?",
+        options: [
+          "Reiniciar o computador várias vezes.", 
+          "Utilizar uma ferramenta de remoção de vírus", 
+          "Desinstalar programas que parecem suspeitos sem verificar.", 
+          "Manter o dispositivo Conectado a Internet"
+        ],
+        answer: "Utilizar uma ferramenta de remoção de vírus",
       },
       {
-        question: "Qual dos tipos de dado a seguir não existe em JavaScript?",
-        options: ["string", "number", "boolean", "float"],
-        answer: "float",
+        question: "Quais ações devem ser tomadas se um e-mail suspeito for recebido? ",
+        options: [
+          "Abrir os links e anexos para verificar a autenticidade.", 
+          "Marcar o e-mail como spam e excluí-lo.", 
+          "Não verificar o endereço do remetente para possíveis fraudes.", 
+          "Marcar o e-mail como spam e excluí-lo."],
+        answer: "Compartilhar o e-mail com amigos para que eles também verifiquem.",
       },
       {
-        question: "Qual dos métodos a seguir seleciona um elemento?",
-        options: ["querySelector", "parseInt", "sort", "reduce"],
-        answer: "querySelector",
+        question: "Como identificar se um site é Clonado?",
+        options: [
+          "Verificar a URL do Site", 
+          "Verificar informações de contato e políticas de privacidade", 
+          "Procurar por erros de gramática e ortografia.", 
+          "Examinar o design do site."
+        ],
+        answer: "Verificar a URL do Site",
+      },
+    ],
+  },
+  {
+    category: "Modulo 02",
+    questions: [
+      {
+        question: " O que é engenharia social?",
+        options: [
+          "Uma técnica de design para criar interfaces de usuário mais amigáveis.",
+          "Um conjunto de métodos usados para manipular pessoas a revelarem informações confidenciais.",
+          "O uso de algoritmos para melhorar a segurança de redes de computadores.",
+          " A prática de construir redes sociais online para facilitar a comunicação.",
+        ],
+        answer: "Um conjunto de métodos usados para manipular pessoas a revelarem informações confidenciais.",
+      },
+      {
+        question: "O que é phishing?",
+        options: [
+          "Um tipo de malware", 
+          "Um ataque para roubar informações pessoais", 
+          "Uma técnica de criptografia", 
+          "Um protocolo de rede"
+        ],
+        answer: "Um ataque para roubar informações pessoais",
+      },
+      {
+        question: "O que é cibersegurança?",
+        options: [
+          "Um conjunto de práticas para proteger computadores e redes contra ataques cibernéticos.", 
+          "Um tipo de software antivírus específico para smartphones.", 
+          "O uso de senhas complexas para acessar redes sociais.", 
+          "Um programa que garante a privacidade nas redes sociais."],
+        answer: "Um conjunto de práticas para proteger computadores e redes contra ataques cibernéticos.",
+      },
+      {
+        question: "O que é um DDOS?",
+        options: [
+          "Um ataque que visa infectar computadores com malware.", 
+          "Um ataque que impede que um serviço online funcione adequadamente, inundando-o com tráfego", 
+          "Um ataque focado em roubar informações pessoais", 
+          "Um ataque que utiliza senhas fracas para invadir sistemas."
+        ],
+        answer: "Um ataque que impede que um serviço online funcione adequadamente, inundando-o com tráfego",
       },
       {
         question:
-          "Qual destas propriedades da a quantidade de elementos de um array?",
-        options: ["qty", "length", "items", "index"],
-        answer: "length",
+          "O que são Firewalls?",
+        options: [
+          "Dispositivos que bloqueiam a entrada de vírus no computador.", 
+          "Protocolos de segurança que definem regras para criptografia de dados.", 
+          "Ferramentas que ajudam a proteger redes bloqueando acessos não autorizados.", 
+          "Serviços que armazenam dados na nuvem."
+        ],
+        answer: "Ferramentas que ajudam a proteger redes bloqueando acessos não autorizados.",
       },
     ],
   },

@@ -1,22 +1,39 @@
-#category {
-    text-align: center;
-    max-width: 500px;
-}
-
-#category h2,
-#category p {
-    margin-bottom: 1rem;
-}
-
-#category p {
-    color: #8435de;
-}
-
-#category img {
-    margin-top: 2rem;
-    max-width: 300px;
-}
-
-#category button {
-   margin-right: 1.5rem;
-}
+.model__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 75px;
+  }
+  
+  .model__container > p {
+    font-weight: bold;
+    font-size: xx-large;
+    padding-bottom: 30px;
+  }
+  
+  .model__button {
+    margin-bottom: 30px;
+    margin-right: 45px;
+  }
+  
+  .model__button > button:first-child {
+    margin-right: 100px;
+  }
+  
+  .container__img {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .container__img {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .img__cadeado {
+    width: 350px;
+    align-items: center;
+    margin-left: 250px;
+    margin-top: 35px;
+  }
