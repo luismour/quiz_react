@@ -4,8 +4,8 @@ const data = [
     questions: [
       {
         question: "Considerando as senhas abaixo, qual é a mais segura.",
-        options: ["<p>", "<h1>", "<text>", "<ul>"],
-        answer: "<text>",
+        options: ["123456", "password", "4m$3g3G", "abc123!@"],
+        answer: "4m$3g3G9",
         
       },
       {
