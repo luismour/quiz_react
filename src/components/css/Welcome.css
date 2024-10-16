@@ -1,8 +1,16 @@
-.welcome__container {
+#welcome__container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 2rem;
+
+}
+
+#welcome__container > img {
+    padding: 20px;
+}
+
+#welcome__container > h2 {
+    margin-bottom: 10px;
 }
 
 .welcome__title {

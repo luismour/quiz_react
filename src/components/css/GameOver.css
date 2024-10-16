@@ -10,6 +10,19 @@
     padding-bottom: 25px;
 }
 
+#gameover > h2, p {
+    margin-bottom: 10px;
+}
+
+#gameover {
+    display: flex;
+    flex-direction: column;
+}
+
+#gameover > img {
+    padding: 10px;
+}
+
 .score__container {
     background: #9F1717;
     padding: 35px;

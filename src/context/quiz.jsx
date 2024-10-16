@@ -1,4 +1,5 @@
 import { createContext, useReducer } from "react";
+import PropTypes from "prop-types"; // Importação do PropTypes
 import questions from "../data/questions_complete";
 
 const STAGES = ["Start", "Category", "Playing", "End"];
@@ -21,7 +22,7 @@ const quizReducer = (state, action) => {
         gameStage: STAGES[1],
       };
 
-    case "START_GAME":
+    case "START_GAME": {
       let quizQuestions = null;
 
       state.questions.forEach((question) => {
@@ -34,7 +35,8 @@ const quizReducer = (state, action) => {
         ...state,
         questions: quizQuestions,
         gameStage: STAGES[2],
-      }
+      };
+    }
 
     case "SHOW_TIP":
       return {
@@ -42,7 +44,7 @@ const quizReducer = (state, action) => {
         help: "tip"
       };
 
-    case "REORDER_QUESTIONS":
+    case "REORDER_QUESTIONS": {
       const reorderedQuestions = state.questions.sort(() => {
         return Math.random() - 0.5;
       });
@@ -50,8 +52,9 @@ const quizReducer = (state, action) => {
         ...state,
         questions: reorderedQuestions,
       };
+    }
 
-    case "CHANGE_QUESTION":
+    case "CHANGE_QUESTION": {
       const nextQuestion = state.currentQuestion + 1;
       let endGame = false;
 
@@ -66,9 +69,12 @@ const quizReducer = (state, action) => {
         answerSelected: false,
         help: false,
       };
+    }
+
     case "NEW_GAME":
       return initialStage;
-    case "CHECK_ANSWER":
+
+    case "CHECK_ANSWER": {
       if (state.answerSelected) return state;
 
       const answer = action.payload.answer;
@@ -82,24 +88,27 @@ const quizReducer = (state, action) => {
         score: state.score + correctAnswer,
         answerSelected: option,
       };
-    
-    case "REMOVE_OPTION":
+    }
+
+    case "REMOVE_OPTION": {
       const questionWithoutOption = state.questions[state.currentQuestion];
       let repeat = true;
       let optionToHide;
 
-      questionWithoutOption.options.forEach((option)=>{
-        if(option !== questionWithoutOption.answer && repeat){
+      questionWithoutOption.options.forEach((option) => {
+        if (option !== questionWithoutOption.answer && repeat) {
           optionToHide = option;
           repeat = false;
         }
-      })
+      });
 
       return {
         ...state,
         optionToHide,
-        help:true
-      }
+        help: true
+      };
+    }
+
     default:
       return state;
   }
@@ -111,4 +120,9 @@ export const QuizProvider = ({ children }) => {
   const value = useReducer(quizReducer, initialStage);
 
   return <QuizContext.Provider value={value}>{children}</QuizContext.Provider>;
+};
+
+// Validação do children com PropTypes
+QuizProvider.propTypes = {
+  children: PropTypes.node.isRequired,
 };

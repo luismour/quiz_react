@@ -9,11 +9,12 @@ const Welcome = () => {
   const [quizState, dispatch] = useContext(QuizContext);
 
   return (
-    <div id="welcome">
+    <div id="welcome__container">
         <h2>Seja bem-vindo</h2>
         <p>Clique no botão abaixo para começar:</p>
-        <button onClick={() => dispatch({type: "CHANGE_STATE"})}>Iniciar</button>
-        <img src={cadeado} alt="cadeado" />
+        <img src={cadeado} alt="cadeado" />      
+      <button onClick={() => dispatch({type: "CHANGE_STATE"})}>Iniciar</button>
+        
     </div>
   )
 }

@@ -5,6 +5,18 @@
     justify-content: center;
     margin-top: 75px;
   }
+
+  #category > h2 {
+    padding-bottom: 10px;
+  }
+
+  #category > p {
+    padding-bottom: 10px;
+  }
+
+  button {
+    margin-right: 15px;
+  }
   
   .model__container > p {
     font-weight: bold;

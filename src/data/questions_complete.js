@@ -4,8 +4,12 @@ const data = [
     questions: [
       {
         question: "Considerando as senhas abaixo, qual é a mais segura.",
-        options: ["123456", "password", "4m$3g3G", "abc123!@"],
-        answer: "4m$3g3G9",
+        options: [
+          "123456", 
+          "password", 
+          "4m$3g3G", 
+          "abc123!@"],
+        answer: "4m$3g3G",
         
       },
       {
@@ -17,7 +21,6 @@ const data = [
           "Trocar senhas frequentemente é desnecessário e pode ser confuso"
         ],
         answer: "Senhas longas e complexas são mais seguras e devem ser únicas para cada conta.",
-        tip: "Senhas longas e complexas são mais seguras e devem ser únicas para cada conta.",
       },
       {
         question: "Qual é o método correto de se lidar com um Malware?",
@@ -35,8 +38,8 @@ const data = [
           "Abrir os links e anexos para verificar a autenticidade.", 
           "Marcar o e-mail como spam e excluí-lo.", 
           "Não verificar o endereço do remetente para possíveis fraudes.", 
-          "Marcar o e-mail como spam e excluí-lo."],
-        answer: "Compartilhar o e-mail com amigos para que eles também verifiquem.",
+          "Compartilhar o e-mail com amigos para que eles também verifiquem."],
+        answer: "Marcar o e-mail como spam e excluí-lo.",
       },
       {
         question: "Como identificar se um site é Clonado?",
