@@ -1,5 +1,4 @@
 import './css/GameOver.css';
-import WellDone from "../img/welldone.svg"
 
 import { useContext } from 'react';
 import { QuizContext } from '../context/quiz';
@@ -14,7 +13,6 @@ const GameOver = () => {
         <h2>Fim do jogo!</h2>
         <p>Pontuação: {quizState.score}</p>
         <p>Você acertou {quizState.score} de {quizState.questions.length} perguntas.</p>
-        <img src={WellDone} alt="Fim do Quiz" />
         <button onClick={() => dispatch({type: "NEW_GAME"})}>Reiniciar</button>
     </div>
   )
