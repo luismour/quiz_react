@@ -50,13 +50,12 @@ Siga os passos abaixo para configurar o projeto em sua máquina local.
 Clone este repositório usando o comando:
 
 bash
-git clone https://github.com/Marcellyz/formulario_multistep_react.git
+git clone https://github.com/luismour/quiz_react.git
 
 ### 2. Navegue até o diretório do projeto
 
 bash
-cd formulario_multistep_react
-`
+cd quiz_react
 
 ### 3. Instale as dependências
 
@@ -91,15 +90,6 @@ Os arquivos gerados estarão no diretório dist/. Você pode usar esses arquivos
 
 Contribuições são bem-vindas!❤💡
 
-
-
-
-## 📄 Licença
-
-Este projeto está licenciado sob a Licença MIT. Veja o arquivo LICENSE para mais detalhes.
-
 Esse README pode ser ajustado de acordo com as necessidades específicas do seu projeto.
 
----
-⌨ com ❤ por [Marcellyz](https://gist.github.com/Marcellyz) 😊
     
