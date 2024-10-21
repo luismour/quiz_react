@@ -49,29 +49,29 @@ Siga os passos abaixo para configurar o projeto em sua máquina local.
 
 Clone este repositório usando o comando:
 
-bash
+```bash
 git clone https://github.com/luismour/quiz_react.git
-
+````
 ### 2. Navegue até o diretório do projeto
 
-bash
+```bash
 cd quiz_react
-
+````
 ### 3. Instale as dependências
 
 Use o npm para instalar as dependências necessárias:
 
-bash
+```bash
 npm install ou npm i
-`
+````
 
 ### 4. Iniciar a aplicação localmente
 
 Para rodar a aplicação localmente em um servidor de desenvolvimento, execute:
 
-bash
+```bash
 npm run dev
-
+```
 
 Abra o navegador e acesse http://localhost:5173/ (o porto pode variar). A aplicação será recarregada automaticamente sempre que houver mudanças nos arquivos do projeto.
 
@@ -80,9 +80,9 @@ Abra o navegador e acesse http://localhost:5173/ (o porto pode variar). A aplica
 
 Para criar uma versão de produção otimizada do projeto, use o comando:
 
-bash
+```bash
 npm run build
-`
+```
 
 Os arquivos gerados estarão no diretório dist/. Você pode usar esses arquivos para hospedar a aplicação em um servidor web.
 
@@ -91,5 +91,4 @@ Os arquivos gerados estarão no diretório dist/. Você pode usar esses arquivos
 Contribuições são bem-vindas!❤💡
 
 Esse README pode ser ajustado de acordo com as necessidades específicas do seu projeto.
-
     
