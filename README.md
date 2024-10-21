@@ -90,12 +90,5 @@ Os arquivos gerados estarão no diretório dist/. Você pode usar esses arquivos
 
 Contribuições são bem-vindas!❤💡
 
-
-
-
-## 📄 Licença
-
-Este projeto está licenciado sob a Licença MIT. Veja o arquivo LICENSE para mais detalhes.
-
 Esse README pode ser ajustado de acordo com as necessidades específicas do seu projeto.
     
